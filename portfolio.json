@@ -1,0 +1,307 @@
+{
+  "header": {
+    "ascii": " ██████╗ ██╗  ██╗ █████╗ ██╗   ██╗██╗   ██╗ █████╗\n ██╔══██╗██║  ██║██╔══██╗██║   ██║╚██╗ ██╔╝██╔══██╗\n ██████╔╝███████║███████║██║   ██║ ╚████╔╝ ███████║\n ██╔══██╗██╔══██║██╔══██║╚██╗ ██╔╝  ╚██╔╝  ██╔══██║\n ██████╔╝██║  ██║██║  ██║ ╚████╔╝    ██║   ██║  ██║\n ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝     ╚═╝   ╚═╝  ╚═╝",
+    "tagline": "  developer • builder • nerd • bibliophile",
+    "availability": "● working at ciena"
+  },
+  "home": {
+    "greeting": "Hey there! 👋 Welcome to my terminal portfolio.",
+    "intro": [
+      "I'm Bhavya Dang — a developer who enjoys building things for the web, learning how systems work,",
+      "and writing code that hopefully doesn't break in production.",
+      "",
+      "This TUI is my corner of the internet, accessible right from your terminal.",
+      "Navigate using the tabs above or press 1–5 to jump directly."
+    ],
+    "stats": [
+      { "label": "Location", "value": "Delhi, India", "color": "cyan" },
+      { "label": "Status", "value": "Working at Ciena", "color": "green" },
+      {
+        "label": "Current Focus",
+        "value": "Golang, System Design, and Homelabbing",
+        "color": "purple"
+      }
+    ],
+    "links": [
+      {
+        "label": "Wiki / Notes:",
+        "value": "wiki.bhavyadang.in",
+        "color": "accent"
+      },
+      {
+        "label": "GitHub:",
+        "value": "github.com/bhavya-dang",
+        "color": "accent"
+      },
+      { "label": "Portfolio:", "value": "bhavyadang.in", "color": "accent" },
+      {
+        "label": "Youtube:",
+        "value": "youtube.com/@bhavyadangdev",
+        "color": "accent"
+      }
+    ],
+    "shell": {
+      "command": "ssh",
+      "hint": "ssh.bhavyadang.in   # not yet published ;-;"
+    }
+  },
+  "about": {
+    "bio": [
+      "I'm a developer from Delhi, India, currently working at Ciena.",
+      "I love building for the web and exploring how things work under the hood.",
+      "At the moment, I am trying to learn Golang and system design by building small projects. (like this app!)",
+      "",
+      "When I'm not writing code, I'm probably watching shows, reading novels, or making my homelab.",
+      "I'm passionate about clean code, good tooling, and system design principles.",
+      "",
+      "I also make youtube videos!"
+    ],
+    "skills": {
+      "languages": ["Go", "JavaScript", "TypeScript", "Python"],
+      "frontend": [
+        "React",
+        "Next.js",
+        "React Native",
+        "Vue",
+        "Tailwind CSS",
+        "DaisyUI",
+        "React Native Paper"
+      ],
+      "backend": ["Node.js", "Express", "REST", "GraphQL"],
+      "database": ["MongoDB", "MySQL", "Redis", "Pinecone"],
+      "devops": ["Docker", "Git", "Linux"],
+      "design": ["Figma", "Premiere Pro", "Photoshop"],
+      "tools": ["Zed", "VS Code", "Xcode"]
+    },
+    "interests": [
+      "Novels",
+      "Full Stack Development",
+      "System Design",
+      "Homelabbing",
+      "Dev Tooling"
+    ]
+  },
+  "projects": [
+    {
+      "name": "LightsOut",
+      "desc": "A RAG chat app for Formula One.",
+      "tags": [
+        "astradb",
+        "gemini",
+        "next.js",
+        "tailwindcss",
+        "typescript",
+        "xenova"
+      ],
+      "link": "https://lightsout.bhavyadang.in/",
+      "demo_url": "https://lightsout.bhavyadang.in/",
+      "github_url": "https://github.com/bhavya-dang/LightsOut",
+
+      "order": 1,
+      "star": false,
+      "color": "accent"
+    },
+    {
+      "name": "developer-personality-analyzer",
+      "desc": "Find your developer personality. ",
+      "tags": ["deepseek", "node.js", "react.js"],
+      "link": "https://what-is-my-developer-personality.vercel.app/",
+      "demo_url": "https://what-is-my-developer-personality.vercel.app/",
+      "github_url": "https://github.com/bhavya-dang/developer-personality-analyzer",
+
+      "order": 1,
+      "star": false,
+      "color": "cyan"
+    },
+    {
+      "name": "memoradb",
+      "desc": "A lightweight, type safe, Redis-like in-memory key-value store written in TypeScript",
+      "tags": ["npm-package", "redis", "typescript"],
+      "link": "https://www.npmjs.com/package/memoradb",
+      "demo_url": "https://www.npmjs.com/package/memoradb",
+      "github_url": "https://github.com/bhavya-dang/memoradb",
+
+      "order": 2,
+      "star": false,
+      "color": "green"
+    },
+    {
+      "name": "browser-mingle",
+      "desc": "A chrome extension that connects you with people who are consuming similar content.",
+      "tags": [
+        "chrome-extension",
+        "pinecone",
+        "react.js",
+        "supabase",
+        "tailwindcss"
+      ],
+      "link": "https://github.com/bhavya-dang/browser-mingle",
+      "demo_url": "",
+      "github_url": "https://github.com/bhavya-dang/browser-mingle",
+
+      "order": 3,
+      "star": false,
+      "color": "purple"
+    },
+    {
+      "name": "createworksheets.ai",
+      "desc": "Generate worksheets in one click using AI",
+      "tags": ["mongodb", "openai", "react.js", "tailwindcss"],
+      "link": "https://createworksheets.ai",
+      "demo_url": "https://createworksheets.ai",
+      "github_url": "",
+
+      "order": 4,
+      "star": false,
+      "color": "orange"
+    },
+    {
+      "name": "This site 🎉",
+      "desc": "My little corner of the world.",
+      "tags": ["next.js", "nextra", "notion", "tailwindcss", "typescript"],
+      "link": "https://bhavyadang.in/",
+      "demo_url": "https://bhavyadang.in/",
+      "github_url": "https://github.com/bhavya-dang/my-website",
+
+      "order": 5,
+      "star": false,
+      "color": "yellow"
+    },
+    {
+      "name": "Amiverse",
+      "desc": "An iOS and Android client for Amizone",
+      "tags": ["react-native"],
+      "link": "https://github.com/Maniktherana/AmiVerse",
+      "demo_url": "",
+      "github_url": "https://github.com/Maniktherana/AmiVerse",
+
+      "order": 5,
+      "star": false,
+      "color": "accent"
+    },
+    {
+      "name": "node-github.js",
+      "desc": "A lightweight and fully maintained NodeJS Wrapper for the Github API V3.",
+      "tags": ["npm-package", "vanilla javascript"],
+      "link": "https://www.npmjs.com/package/node-github.js",
+      "demo_url": "https://www.npmjs.com/package/node-github.js",
+      "github_url": "https://github.com/bhavya-dang/node-github.js",
+
+      "order": 6,
+      "star": false,
+      "color": "cyan"
+    },
+    {
+      "name": "Personal Wiki",
+      "desc": "My personal wiki. A collection of my notes/resources/blogs.",
+      "tags": ["next.js", "nextra", "typescript"],
+      "link": "https://wiki.bhavyadang.in/",
+      "demo_url": "https://wiki.bhavyadang.in/",
+      "github_url": "https://github.com/bhavya-dang/my-wiki",
+
+      "order": 7,
+      "star": false,
+      "color": "green"
+    },
+    {
+      "name": "Shortly",
+      "desc": "A simple url shortener built with MEVN stack.",
+      "tags": ["mongodb", "node.js", "vue.js"],
+      "link": "https://shortly.bhavyadang.in",
+      "demo_url": "https://shortly.bhavyadang.in",
+      "github_url": "https://github.com/bhavya-dang/Shortly/tree/dev",
+
+      "order": 8,
+      "star": false,
+      "color": "purple"
+    },
+    {
+      "name": "RyujinBot",
+      "desc": "A multi-purpose discord bot being used 25+ servers by 140k+ members.",
+      "tags": ["discord-bot", "discord-js", "mongodb"],
+      "link": "https://github.com/bhavya-dang/RyujinBot",
+      "demo_url": "",
+      "github_url": "https://github.com/bhavya-dang/RyujinBot",
+
+      "order": 9,
+      "star": false,
+      "color": "orange"
+    },
+    {
+      "name": "D3Movie",
+      "desc": "A simple movie app that uses D3.js to visualize movie data.",
+      "tags": ["d3.js", "react.js", "tailwindcss"],
+      "link": "https://d3-movie.vercel.app/",
+      "demo_url": "https://d3-movie.vercel.app/",
+      "github_url": "https://github.com/bhavya-dang/D3Movie",
+
+      "order": 10,
+      "star": false,
+      "color": "yellow"
+    },
+    {
+      "name": "Aniko",
+      "desc": "An Anime and Manga Search List built with VueJS and TailwindCSS powered by the Anilist API.",
+      "tags": ["tailwindcss", "vue.js"],
+      "link": "http://ani-ko.netlify.app/",
+      "demo_url": "http://ani-ko.netlify.app/",
+      "github_url": "https://github.com/bhavya-dang/AniKo",
+
+      "order": 11,
+      "star": false,
+      "color": "accent"
+    },
+    {
+      "name": "Whatsapp Chat Leaderboard",
+      "desc": "A whatsapp chat leaderboard and summarizer I built for fun, with Next.js",
+      "tags": ["next.js", "tailwindcss", "typescript"],
+      "link": "https://whatsapp-summarizer.vercel.app/",
+      "demo_url": "https://whatsapp-summarizer.vercel.app/",
+      "github_url": "https://github.com/bhavya-dang/whatsapp-chat-leaderboard",
+
+      "order": 12,
+      "star": false,
+      "color": "cyan"
+    },
+    {
+      "name": "Bulk Delete Github Repos",
+      "desc": "A simple way to delete multiple github repositiories at once.",
+      "tags": ["github", "python", "scripting"],
+      "link": "https://github.com/bhavya-dang/bulk-delete-repos",
+      "demo_url": "",
+      "github_url": "https://github.com/bhavya-dang/bulk-delete-repos",
+
+      "order": 13,
+      "star": false,
+      "color": "green"
+    }
+  ],
+  "blog": {
+    "title": "Blog & Notes",
+    "subtitle": "Published on http://wiki.bhavyadang.in"
+  },
+  "contact": {
+    "header": "Get in Touch",
+    "pitch": [
+      "Feel free to reach out about projects, collaborations, or just to talk tech."
+    ],
+    "methods": [
+      {
+        "label": "Email",
+        "value": "bhavyadang1207@gmail.com",
+        "color": "accent"
+      },
+      {
+        "label": "GitHub",
+        "value": "github.com/bhavya-dang",
+        "color": "green"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "linkedin.com/in/bhavya-dang-bbb298115",
+        "color": "accent"
+      }
+    ],
+    "share": "ssh.bhavyadang.in    # not yet deployed"
+  }
+}

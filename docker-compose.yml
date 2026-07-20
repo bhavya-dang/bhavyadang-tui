@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  ssh-portfolio:
+    build: .
+    container_name: bhavyadang-tui
+    restart: unless-stopped
+    ports:
+      - "23234:23234"
+    volumes:
+      # Persist the SSH host key across restarts so clients don't get
+      # "host key changed" warnings
+      - ssh_keys:/root/.ssh
+
+volumes:
+  ssh_keys:

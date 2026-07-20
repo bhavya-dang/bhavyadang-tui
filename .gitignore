@@ -1,0 +1,12 @@
+# Build output
+ssh-portfolio
+
+# macOS
+.DS_Store
+
+# Secrets
+.ssh/
+fly.toml
+
+# Go
+vendor/

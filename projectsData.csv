@@ -1,0 +1,16 @@
+﻿Name,Demo URL,Description,Github URL,Image,Order,Status,Tags
+Shortly,https://shortly.bhavyadang.in,A simple url shortener built with MEVN stack.,https://github.com/bhavya-dang/Shortly/tree/dev,Website%20Notion%20Database/shortly_img.png,8,Published,"mongodb, node.js, vue.js"
+Aniko,http://ani-ko.netlify.app/,An Anime and Manga Search List built with VueJS and TailwindCSS powered by the Anilist API.,https://github.com/bhavya-dang/AniKo,Website%20Notion%20Database/aniko_img.png,11,Published,"tailwindcss, vue.js"
+D3Movie,https://d3-movie.vercel.app/,A simple movie app that uses D3.js to visualize movie data.,https://github.com/bhavya-dang/D3Movie,Website%20Notion%20Database/d3movie_img.png,10,Published,"d3.js, react.js, tailwindcss"
+node-github.js,https://www.npmjs.com/package/node-github.js,A lightweight and fully maintained NodeJS Wrapper for the Github API V3.,https://github.com/bhavya-dang/node-github.js,Website%20Notion%20Database/648x294.svg,6,Published,"npm-package, vanilla javascript"
+browser-mingle,,A chrome extension that connects you with people who are consuming similar content.,https://github.com/bhavya-dang/browser-mingle,Website%20Notion%20Database/website-media.png,3,Published,"chrome-extension, pinecone, react.js, supabase, tailwindcss"
+RyujinBot,,A multi-purpose discord bot being used 25+ servers by 140k+ members.,https://github.com/bhavya-dang/RyujinBot,Website%20Notion%20Database/648x294%201.svg,9,Published,"discord-bot, discord-js, mongodb"
+Whatsapp Chat Leaderboard,https://whatsapp-summarizer.vercel.app/,"A whatsapp chat leaderboard and summarizer I built for fun, with Next.js",https://github.com/bhavya-dang/whatsapp-chat-leaderboard,,12,Published,"next.js, tailwindcss, typescript"
+Bulk Delete Github Repos,,A simple way to delete multiple github repositiories at once.,https://github.com/bhavya-dang/bulk-delete-repos,,13,Published,"github, python, scripting"
+This site 🎉,https://bhavyadang.in/,My little corner of the world.,https://github.com/bhavya-dang/my-website,,5,Published,"next.js, nextra, notion, tailwindcss, typescript"
+Personal Wiki,https://wiki.bhavyadang.in/,My personal wiki. A collection of my notes/resources/blogs.,https://github.com/bhavya-dang/my-wiki,,7,Published,"next.js, nextra, typescript"
+Amiverse,,An iOS and Android client for Amizone,https://github.com/Maniktherana/AmiVerse,,5,Published,react-native
+createworksheets.ai,https://createworksheets.ai,Generate worksheets in one click using AI,,,4,Published,"mongodb, openai, react.js, tailwindcss"
+memoradb,https://www.npmjs.com/package/memoradb,"A lightweight, type safe, Redis-like in-memory key-value store written in TypeScript",https://github.com/bhavya-dang/memoradb,,2,Published,"npm-package, redis, typescript"
+LightsOut,https://lightsout.bhavyadang.in/,A RAG chat app for Formula One.,https://github.com/bhavya-dang/LightsOut,,1,Published,"astradb, gemini, next.js, tailwindcss, typescript, xenova"
+developer-personality-analyzer,https://what-is-my-developer-personality.vercel.app/,"Find your developer personality. ",https://github.com/bhavya-dang/developer-personality-analyzer,,1,Published,"deepseek, node.js, react.js"
