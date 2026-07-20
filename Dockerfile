@@ -17,6 +17,7 @@ RUN apk --no-cache add ca-certificates openssh-keygen
 WORKDIR /root/
 
 COPY --from=builder /app/ssh-portfolio .
+COPY portfolio.json projectsData.csv ./
 
 # Create SSH key directory
 RUN mkdir -p .ssh
